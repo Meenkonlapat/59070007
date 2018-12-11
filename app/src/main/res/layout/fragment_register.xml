@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+            <EditText
+            android:id="@+id/register_id"
+            android:inputType="text"
+            android:hint="@string/register_id"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_register_user_id"
+            android:layout_gravity="center"
+            android:layout_width="285dp" />
+
+            <EditText
+                android:id="@+id/register_name"
+                android:inputType="textPersonName"
+                android:hint="@string/register_name"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_register_name"
+                android:layout_gravity="center"
+                android:layout_width="285dp" />
+
+            <EditText
+                android:id="@+id/register_age"
+                android:hint="@string/register_age"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_register_age"
+                android:layout_gravity="center"
+                android:layout_width="285dp"
+                android:inputType="text"/>
+            <EditText
+                android:id="@+id/register_password"
+                android:hint="@string/register_password"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_register_password"
+                android:layout_gravity="center"
+                android:layout_width="285dp"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:id="@+id/register_register_btn"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="REGISTER NEW ACCOUNT" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

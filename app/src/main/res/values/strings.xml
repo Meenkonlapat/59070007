@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">59070007</string>
+    <string name="register_id">User Id</string>
+    <string name="register_name">Name</string>
+    <string name="register_password">Password</string>
+    <string name="register_age">Age</string>
+    <string name="user_id">User Id</string>
+    <string name="user_password">Password</string>
+    <string name="quote">Quote</string>
+</resources>
